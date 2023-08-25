@@ -1,0 +1,19 @@
+{
+  "name": "jspsych-example",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc && vite build",
+    "dev": "vite",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "@jspsych/plugin-html-keyboard-response": "^1.1.2",
+    "jspsych": "^7.3.3"
+  }
+}
